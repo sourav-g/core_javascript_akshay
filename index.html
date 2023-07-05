@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaSript Refresher</title>
+    <style>
+      div {
+        min-width: 100px;
+        min-height: 100px;
+        padding: 30px;
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="heading">Namaste JavaSript</h1>
+
+    <button id="debounceMe">Debounce Call</button>
+    <button id="throttleMe">Throttle Call</button>
+    <br /><br /><br />
+    <label> Event Bubbling & Capturing </label>
+    <br /><br /><br />
+    <div id="grandparent">
+      <div id="parent">
+        <div id="child"></div>
+      </div>
+    </div>
+
+    <br /><br /><br />
+    <label> Event Delegation </label>
+    <br /><br /><br />
+
+    <div>
+      <ul id="category">
+        <li id="laptops">laptops</li>
+        <li id="cameras">cameras</li>
+        <li id="shoes">shoes</li>
+      </ul>
+    </div>
+
+    <br /><br /><br />
+    <label> Behaviour Pattern using Event Delegation </label>
+    <br /><br /><br />
+
+    <div id="form">
+      <input type="text" id="name" data-uppercase />
+      <input type="text" id="pan" data-uppercase />
+      <input type="text" id="mobile" />
+    </div>
+
+    <script src="./5-debouncing.js"></script>
+    <script src="./6-throttling.js"></script>
+    <script src="./8-event-bubbling-capturing.js"></script>
+    <script src="./9-event-delegation.js"></script>
+  </body>
+</html>
