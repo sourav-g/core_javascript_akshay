@@ -41,3 +41,8 @@ Load a webpage -
 //?-------------------------
 //* Defer > Async > Default
 //?-------------------------
+
+
+// Both async and defer in a script tag
+// Modern browsers run async
+// Old browsers run as defer [ instead of default ]
